@@ -1,59 +1,22 @@
 # AngularTodo
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.4.
+### Home Page 
 
-## Development server
+![screencapture-localhost-4200-2025-06-28-19_35_08](https://github.com/user-attachments/assets/b350baf0-5d48-4a4c-b98d-0b715a7a7410)
 
-To start a local development server, run:
+### About us page 
 
-```bash
-ng serve
-```
+![screencapture-localhost-4200-about-2025-06-28-19_35_27](https://github.com/user-attachments/assets/2bb1f485-7eb1-466f-8670-fc7e41c41190)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Contact us page 
 
-## Code scaffolding
+![screencapture-localhost-4200-contact-2025-06-28-19_35_47](https://github.com/user-attachments/assets/8be750f8-9294-48e5-bcc2-1d1293457f80)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-```bash
-ng generate component component-name
-```
+### Login Page 
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+![screencapture-localhost-4200-signin-2025-06-28-19_36_02](https://github.com/user-attachments/assets/cf294401-b780-4081-ad3a-2e6fc9e29ec9)
 
-```bash
-ng generate --help
-```
+### Register page 
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![screencapture-localhost-4200-signup-2025-06-28-19_36_11](https://github.com/user-attachments/assets/b6a94aea-8a99-4610-bfb7-c7873edb7829)
