@@ -1,0 +1,60 @@
+@font-face {
+        font-family: "CustomFont";
+        src: url(./assets/fonts/rahige-regular.ttf) format("truetype");
+      }
+      body {
+        margin: 0;
+        padding: 20px 55px;
+        font-family: Arial, sans-serif;
+        background-color: #fefffa;
+        color: #333;
+      }
+      header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+      
+        padding:20px 45px;
+      }
+      header .logo h1 {
+        margin: 0;
+        font-family: "CustomFont";
+        font-size: 24px;
+      }
+      header nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+      header nav a {
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+      }
+      header .auth-buttons {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+      }
+      header .auth-buttons a {
+        padding: 6px 14px;
+        border: 2px solid transparent;
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+        transition: border 0.2s;
+      }
+      header .auth-buttons a.signup {
+        border: 2px solid #000;
+      }
+
+
+
+      footer{
+        padding: 20px;
+        color: white;
+        background-color: #333;
+        justify-content: center;
+       text-align: center;
+      }

@@ -1,0 +1,198 @@
+      .hero {
+        text-align: center;
+        margin: 40px auto;
+        padding: 0 20px;
+        max-width: 800px;
+      }
+      .hero img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: -5px;
+
+       
+      }
+      .hero-form {
+        background: #b5a476;
+        margin: 0 auto;
+        padding: 30px;
+        border-radius: 15px;
+        border-top-right-radius: 60px;
+        border-top-left-radius: 15px;
+        max-width: 580px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+      }
+      .hero-form input[type="text"],
+      .hero-form textarea {
+       width: 70%;
+
+        padding: 10px;
+        font-size: 14px;
+        border: none;
+        box-sizing: border-box;
+      }
+      .hero-form input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+
+        transition: background 0.3s;
+        padding: 10px;
+        font-size: 14px;
+      }
+      .hero-form input[type="submit"]:hover {
+        background-color: #555;
+      }
+      .hero-form input[type="date"],
+      .hero-form select {
+        width: 70%;
+        padding: 10px;
+        color: #6f6e6e;
+        border: none;
+        font-size: 14px;
+        box-sizing: border-box;
+        appearance: none; /* Removes default arrow styling in some browsers */
+        background-color: #fff;
+      }
+
+      /* Optional: Style the select dropdown arrow */
+      .hero-form select {
+        background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D'12'%20height%3D'12'%20viewBox%3D'0%200%2012%2012'%20xmlns%3D'http%3A//www.w3.org/2000/svg'%3E%3Cpath%20d%3D'M2%204l4%204%204-4'%20stroke%3D'%23666'%20stroke-width%3D'2'%20fill%3D'none'%20fill-rule%3D'evenodd'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        background-size: 12px;
+        color: #6f6e6e;
+        padding-right: 30px; /* Space for the arrow */
+      }
+
+      .task-card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        gap: 15px;
+        margin: 40px 20px;
+        flex-wrap: wrap;
+        background-image: url("assets/imgs/3.png");
+        background-size: contain;
+      }
+      .card-container {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        position: relative;
+
+        align-items: center;
+        border-radius: 20px;
+      }
+      .task-card {
+        background: #fff;
+        border: 2px solid #000;
+        border-radius: 12px;
+        padding: 20px;
+        max-width: 500px;
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+      }
+      .img-div {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        width: 80px;
+        height: 100px;
+      
+      }
+      .task-card .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .task-card .task-header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+
+      .task-card .task-header h2 {
+        font-size: 20px;
+        margin: 0;
+        font-family: "CustomFont";
+      }
+      .task-card p {
+        font-size: 14px;
+        line-height: 1.4;
+        margin: 10px 0;
+      }
+      .task-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 10px;
+      }
+      .task-tags span {
+        display: inline-block;
+        font-size: 12px;
+        padding: 4px 8px;
+        border-radius: 4px;
+      }
+      .deadline {
+        background: #f0c031;
+      }
+      .category {
+        background: #f0c031;
+      }
+      .priority {
+        background: #d16f4a;
+        color: #fff;
+      }
+      /* .edit-button {
+        background: #333;
+        color: #fff;
+        border-radius: 12px;
+        padding: 12px;
+        cursor: pointer;
+        flex-shrink: 0;
+      } */
+
+      .edit-button i {
+        background: #333;
+        color: #fff;
+        border-radius: 12px;
+        padding: 65px 20px;
+        cursor: pointer;
+        flex-shrink: 0;
+      }
+      /* Mobile adjustments */
+      @media (max-width: 600px) {
+        header {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        header nav {
+          margin-top: 10px;
+        }
+        header .auth-buttons {
+          margin-top: 10px;
+        }
+        .hero-form {
+          padding: 20px;
+        }
+        .task-card-container {
+          flex-direction: column;
+          align-items: center;
+        }
+        .edit-button {
+          width: 100%;
+          text-align: center;
+        }
+      }
